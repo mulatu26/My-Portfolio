@@ -79,9 +79,9 @@
 const nameText = "Mulatu Sakuma.";
 
 const titles = [
-  
-    "Computer Engineering",
-   
+    "FrontEnd Developer",
+    "Computer Engineer",
+    "Internet And Mobile Banking Officer"
 ];
 
 const nameElement = document.getElementById("typing-name");
