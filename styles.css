@@ -193,6 +193,28 @@ body.light-theme{--bg:#f5f8fc;--bg2:#edf2f8;--panel:#fff;--panel2:#eef4f8;--text
 
     #home .profile-stage {
         width: 100%;
+
+        .typing-line {
+    display: inline;
+    width: auto;
+    max-width: 100%;
+    min-height: 0;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    vertical-align: baseline;
+}
+
+.cursor {
+    display: inline-block;
+    color: #5eead4;
+    animation: blink 0.7s infinite;
+}
+
+        @media (max-width: 991.98px) {
+    .hero-section h1 {
+        font-size: clamp(2.5rem, 7vw, 4.5rem);
+    }
+}
         max-width: 320px;
         margin: 0 auto;
     }
