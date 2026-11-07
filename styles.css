@@ -242,3 +242,64 @@ body.light-theme{--bg:#f5f8fc;--bg2:#edf2f8;--panel:#fff;--panel2:#eef4f8;--text
         font-size: clamp(2.5rem, 10vw, 3.5rem);
     }
 }
+/* Certificate image styling */
+
+.cert-item {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--line);
+}
+
+.cert-image {
+    width: 110px;
+    height: 85px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid var(--line);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.cert-image:hover {
+    transform: scale(1.06);
+}
+
+.cert-details {
+    flex: 1;
+    min-width: 0;
+}
+
+.cert-details h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.cert-details p {
+    color: var(--muted);
+    font-size: 0.78rem;
+    margin-bottom: 8px;
+}
+
+.cert-view {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.78rem;
+    font-weight: 700;
+}
+
+.cert-view:hover {
+    color: var(--accent2);
+}
+
+@media (max-width: 575px) {
+    .cert-image {
+        width: 85px;
+        height: 70px;
+    }
+
+    .cert-item {
+        gap: 12px;
+    }
+}
