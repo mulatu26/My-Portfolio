@@ -79,7 +79,7 @@
 const nameText = "Mulatu Sakuma.";
 
 const titles = [
-    "FrontEnd Developer",
+    "Website Developer",
     "Computer Engineer",
    
 ];
